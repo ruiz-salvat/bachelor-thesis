@@ -1,0 +1,30 @@
+Results:
+
+LR
+Best parameters: {'solver': 'liblinear', 'penalty': 'l2'}
+Accuracy: 83.21722609246358%
+Precision: 83.14606741573034%
+Recall: 89.05908096280088%
+F1: 86.00105652403592%
+
+KNN
+Best parameters: {'weights': 'distance', 'n_neighbors': 138, 'algorithm': 'brute'}
+Accuracy: 83.02723242558582%
+Precision: 83.64583333333333%
+Recall: 87.85557986870897%
+F1: 85.69903948772676%
+
+DT
+Best parameters: {'splitter': 'random', 'min_samples_split': 2, 'max_features': 'sqrt', 'max_depth': 106, 'criterion': 'gini'}
+Accuracy: 79.2273590880304%
+Precision: 82.05689277899344%
+Recall: 82.05689277899344%
+F1: 82.05689277899343%
+
+RF
+Best parameters: {'n_estimators': 146, 'max_features': 'auto', 'max_depth': 19, 'criterion': 'gini'}
+Accuracy: 86.3204559848005%
+Precision: 88.60619469026548%
+Recall: 87.63676148796499%
+F1: 88.11881188118811%
+
